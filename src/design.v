@@ -31,7 +31,7 @@
  *
  */
 
-module tt_thefestest_tinyeqvis(input clk,
+module tt_um_thefestest_tinyeqvis(input clk,
   input reset,
   input next,
   input [31:0] i0,

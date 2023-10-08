@@ -38,3 +38,24 @@ The GitHub action will automatically build the ASIC files using [OpenLane](https
   - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
   - Twitter [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) [@matthewvenn](https://twitter.com/matthewvenn)
 
+
+## Specs
+
+As per the docs in "https://tinytapeout.com/faq/?mc_cid=65e4ed5e1e#chip-specs-for-tt04-and-tt05"
+
+What is the top clock speed?
+We think it will be around 50MHz.
+
+How many ins and outs do I get?
+clock and nreset (low to reset)
+8 ins
+8 outs
+8 bidirectional ios
+
+## High level design plan
+
+Use outputs as analog?
+
+Use as many outputs for display as possible. Start with 14 and go up/down as needed.
+
+Inputs: (todo...)
